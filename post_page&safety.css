@@ -1,0 +1,29 @@
+body{
+    width: 95%;
+    margin: auto;
+    font-family:Calibri;
+}
+.background {
+    width: 95%;
+    margin: auto;
+    background-image: url(k.jpg);
+}
+.header{
+    text-align: center;
+   /* background-image: url(blue.jpg);*/
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+}
+.header1{
+	text-align: left;
+	background-color: #f1f1f1;
+	font-size: 15px;
+	color: black;
+}
+.footer{
+	text-align: center;
+	background-color: #f1f1f1;
+	font-size: 18px;
+	color: black;
+	font-style: italic;
+}
