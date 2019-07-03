@@ -46,6 +46,7 @@ a {
 	border-radius: 200px;
 	width: 300px;
 	height: 50px;
+
 }
 
 .dropdown-menu{
@@ -59,6 +60,12 @@ a {
 	color: #000;
 	text-decoration: none;
 	align-items: center;
+}
+.dropdown-content{
+	display: block;
+	background-color: #fff;
+	align-items: center;
+	text-decoration: none;
 }
 
  /* .dropdown-content {
@@ -102,7 +109,7 @@ a {
 /*SMALL HEADERS*/
 .header2{
 	text-align: center;
-	background: #f1f1f1;
+	background:#418DFB;
 }
 * {
 	box-sizing: border-box;
@@ -111,7 +118,6 @@ a {
 /*STYLING THE SEARCH BAR*/
 .search_bar input[type=text]{
 	float: left;
-
 	padding: 10px;
 	font-size: 17px;
 	border:1px solid grey;
@@ -189,4 +195,19 @@ form.search_bar:after{
 	font-size: 18px;
 	color: black;
 	font-style: italic;
+}
+
+.jumbomage {
+  width: 600px;
+  height: 400px;
+}
+
+.searchbtn{
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #418DFB;
+  border-color: #418DFB;
+  cursor: pointer;
+  color: #fff;
 }

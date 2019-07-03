@@ -1,5 +1,5 @@
 body{
-    width: 95%;
+    width: 100%;
     margin: auto;
     font-family:Calibri;
 }
@@ -26,4 +26,10 @@ body{
 	font-size: 18px;
 	color: black;
 	font-style: italic;
+}
+
+.jumbomage {
+  margin-top:20px;
+  width: 600px;
+  height: 400px;
 }

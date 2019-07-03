@@ -1,43 +1,49 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 
    .first_column {
-        width: 100%;
+        width: 50%;
         padding-bottom: 10px;
-        float: none;
+        float: left;
+        margin-left: 100px;
         height: 100%;
     }
 
-    .second_column {
+.second_column {
         width: 100%;
         padding-bottom: 10px;
         float: none;
-        height: 100%;
+
     }
 }
+
+.jumbotron{
+  background-color: #348AA7;
+}
+
+.jumbotron h1{
+  color: #418DFB;
+}
+
+
 body{
-    width: 95%;
+    width: 100%;
     margin: auto;
     font-family:Calibri;
 }
-.background {
-    width: 95%;
-    margin: auto;
-    background-image: url(k.jpg);
-}
+
 .header{
     text-align: center;
-   /* background-image: url(blue.jpg);*/
     font-size: 15px;
     font-family: Verdana, sans-serif;
 }
 .first_column {
     padding: 0 10px 0 0;
     float: left;
-    width: 33%;
+    width: 30%;
     flex:50%;
-    height: 100%;
     display: table;
     height: 100;
+    margin-left: 40px;
 }
 
 .second_column {
@@ -62,7 +68,7 @@ body{
   display: table;
 }
 /*Styling the search field*/
-form.search_bar input[type=text]{
+/* form.search_bar input[type=text]{
     padding: 15px;
     margin-bottom: 30px;
     font-size: 17px;
@@ -70,10 +76,24 @@ form.search_bar input[type=text]{
     width:80%;
     float: left;
     background: #f1f1f1;
+} */
+
+/*STYLING THE SEARCH BAR*/
+
+
+.search-bar input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid;
+  width: 50%;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-top: 70px;
 }
 
 /*Style the submit button*/
-form.search_bar button {
+/* form.search_bar button {
     float: left;
     width: 100px;
     padding: 15px;
@@ -92,13 +112,12 @@ form.search_bar button:hover {
 }
 
 /*Clear floats*/
-form.search_bar:after{
+/* form.search_bar:after{
     content: "";
     clear: both;
     display: table;
-}
-
- * {
+}  */
+ {
   box-sizing: border-box;
 }
 .footer{
@@ -139,4 +158,41 @@ h2{
     box-shadow:#2E4053;
     background-color: #EAEDED;
     width: 70%;
+}
+
+
+.resetbtn{
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: 	#418DFB;
+  border-color: 	#418DFB;
+  cursor: pointer;
+  color: #fff;
+}
+
+.submitbtn{
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: 	#418DFB;
+  border-color: 	#418DFB;
+  cursor: pointer;
+  color: #fff;
+}
+
+.searchbtn{
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #418DFB;
+  border-color: #418DFB;
+  cursor: pointer;
+  margin-left: 250px;
+  color: #fff;
+}
+
+.jumbomage {
+  width: 600px;
+  height: 400px;
 }
